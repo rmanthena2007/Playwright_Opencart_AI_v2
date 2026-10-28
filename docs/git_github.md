@@ -73,7 +73,7 @@ git add package.json
 
 **Add files with a specific extension** 
 
-git add "\*.ts"  
+git add "*.ts"  
 **Add all files from a specific folder** 
 
 git add foldername/ 
@@ -86,11 +86,11 @@ git status
 
 Commit the staged changes with a descriptive commit message: 
 
-git commit \-m "Add initial Playwright framework" 
+git commit -m "Add initial Playwright framework" 
 
 To view the commit history: 
 
-git log \--oneline 
+git log --oneline 
 
 **5\. Connect the Local Repository to GitHub** 
 
@@ -100,7 +100,7 @@ Example:
 
 git remote add origin https\://github.com/pavanoltraining/myproject.git Verify the remote repository: 
 
-git remote \-v 
+git remote -v 
 
 ***Note:** Replace USERNAME and REPOSITORY with your GitHub username and repository name.*  
 **6\. Push Changes to GitHub** 
